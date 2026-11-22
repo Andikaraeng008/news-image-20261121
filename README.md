@@ -12,7 +12,7 @@ A front page for Saturday 21 November 2026: twelve stories from the day's world 
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-Python 3.13, Pillow only. The program writes `out/entry.png`.
+Python 3.13, Pillow only. The program writes `out/entry.png`. The `fonts/` directory bundles the open DejaVu and Liberation Serif fonts it draws with, so it runs anywhere without system fonts installed.
 
 ---
 
